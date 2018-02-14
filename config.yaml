@@ -1,0 +1,9 @@
+---
+contentdir: "content"
+layoutdir: "layouts"
+publishdir: "public"
+baseurl: "http://www.tuan.pro"
+title: "tuan.pro"
+canonifyurls: true
+params:
+  calloutTitle: "These Unique Amusing Notions"
