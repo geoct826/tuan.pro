@@ -1,0 +1,4 @@
+[submodule "public"]
+	path = public
+	url = git@github.com:geoct826/tuan.pro.git
+	branch = gh-pages
