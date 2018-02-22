@@ -1,11 +1,9 @@
 <!doctype html>
-<html class="no-js" lang="en" dir="ltr">
-  <body>
-    <h1>
-      Hello World
-    </h1>
-    <p>
-      This page is currently under development. Please be patient.
-    </p>
+<html class="no-js" lang={{ .Site.LanguageCode }} dir="ltr">
+	{{ partial "head" . }}
+	<body>
+		{{ partial "top-bar" . }}
+		
+		{{ partial "scripts" . }}
   </body>
 </html>

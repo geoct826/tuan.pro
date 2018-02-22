@@ -3,7 +3,29 @@ contentdir: "content"
 layoutdir: "layouts"
 publishdir: "public"
 baseurl: "http://www.tuan.pro"
+builddrafts: false
+
 title: "tuan.pro"
+author: "George tuan"
+copyright: "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
+
 canonifyurls: true
 params:
   calloutTitle: "These Unique Amusing Notions"
+  AuthorName: "Fredrik"
+  github: "Senjindarashiva"
+  bitbucket: "floch"
+  flickr: "senjin"
+  twitter: "senjindarshiva"
+  email: "mail@fredrikloch.me"
+  description: ""
+  cv: "/pages/cv"
+  legalnotice: "/pages/legal-notice"
+  muut: "fredrikloch"
+  linkedin: "fredrikloch"
+  cover: "/images/background-cover.jpg"
+  logo: "/img/logo-1.jpg"
+  
+indexes:
+   category: "categories"
+   tag: "tags"

@@ -1,0 +1,25 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Roboto Slab', serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.top-bar {
+  background: #7faaef;
+  color: #0a0a0a; 
+  height: 48px;
+  padding-top: 7px;
+  font-family: "Roboto", sans-serif;
+}
+
+.menu a,
+.menu .button {
+  background: #7faaef;
+  color: #0a0a0a; 
+}
