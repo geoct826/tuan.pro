@@ -2,7 +2,11 @@
 <html class="no-js" lang={{ .Site.LanguageCode }} dir="ltr">
 	{{ partial "head" . }}
 	<body>
-		{{ partial "top-bar" . }}
+		<div class=row>
+			{{ partial "top-bar" . }}
+
+			{{ partial "callout" . }}
+		</div>
 		
 		{{ partial "scripts" . }}
   </body>

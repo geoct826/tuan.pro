@@ -11,15 +11,61 @@
 }
 
 .top-bar {
-  background: #7faaef;
+  background-color: #7faaef;
   color: #0a0a0a; 
-  height: 48px;
-  padding-top: 7px;
+  height: 40px;
+  margin-top: 0px;
   font-family: "Roboto", sans-serif;
+}
+
+.top-bar ul {
+  background-color: transparent;
 }
 
 .menu a,
 .menu .button {
   background: #7faaef;
   color: #0a0a0a; 
+  opacity: .8;
+  width: 100px;  
 }
+
+.menuitem {
+  background-color: transparent;
+}
+
+.callout-background {
+	background-color: #0078A0;
+	background-image: url("images/IMG_2937.jpg");
+	background-position: bottom;
+	height: 100%;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+  z-index: -1;
+}
+
+.callout-text {
+  font-family: "Roboto", sans-serif;
+	font-size: 30px;
+	color: #fff;
+	text-align: center;
+	padding-top: 180px;
+	padding-bottom: 50px;
+}
+
+.parallax-content {
+	max-width: 100%;
+	position: relative;
+	top: 0px;
+	padding: 20px;
+	font-size: 20px;
+	background-color: #fff;
+}
+
+
+
