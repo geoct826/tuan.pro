@@ -2,7 +2,7 @@
 contentdir: "content"
 layoutdir: "layouts"
 publishdir: "public"
-baseurl: "http://www.tuan.pro"
+baseurl: "https://blog-george644261.codeanyapp.com"
 builddrafts: false
 
 title: "tuan.pro"
@@ -12,4 +12,4 @@ copyright: "This work is licensed under a Creative Commons Attribution-ShareAlik
 canonifyurls: true
 
 params:
-  calloutTitle: "Curious Musings"
+  calloutTitle: "the winding road"

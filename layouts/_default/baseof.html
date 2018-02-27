@@ -4,17 +4,13 @@
 	<body>
 		<div class=row>
 			{{ partial "top-bar" . }}
-
-			{{ partial "callout" . }}
-	
-			<div id="homepage" class="parallax-content">
-				{{ range (where .Site.Pages "Type" "home") }}
-					{{ .Render "content-single" }}
-				{{ end }}
-			</div >
 			
-	
-    </div>
+			<div id="posts" class="post parallax-content">
+			{{ block "main" . }}
+			</div>
+			
+			{{ end }}
+		</div>
 		{{ partial "scripts" . }}
   </body>
 </html>

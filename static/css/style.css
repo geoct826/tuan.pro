@@ -11,11 +11,14 @@
 }
 
 .top-bar {
-  background-color: #7faaef;
+  background-color: #4983C2;
   color: #0a0a0a; 
   height: 40px;
   margin-top: 0px;
   font-family: "Roboto", sans-serif;
+	position: fixed;
+	top: 0;
+	width: 100%;
 }
 
 .top-bar ul {
@@ -24,7 +27,7 @@
 
 .menu a,
 .menu .button {
-  background: #7faaef;
+  background: #4983C2;
   color: #0a0a0a; 
   opacity: .8;
   width: 100px;  
@@ -36,9 +39,11 @@
 
 .callout-background {
 	background-color: #0078A0;
-	background-image: url("images/IMG_2937.jpg");
+	background-image: url("images/callout.jpg");
 	background-position: bottom;
-	height: 100%;
+	align-content: center;
+	width: 100%;
+	height: 100vh;
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
@@ -46,16 +51,16 @@
 	background-size: cover;
 	background-attachment: fixed;
 	position: relative;
-  z-index: -1;
+	z-index: -1;
 }
 
 .callout-text {
   font-family: "Roboto", sans-serif;
-	font-size: 30px;
+	font-size: 20px;
 	color: #fff;
 	text-align: center;
-	padding-top: 180px;
-	padding-bottom: 50px;
+	padding-top: 80vh;
+	/* padding-bottom: 80px; */
 }
 
 .parallax-content {
@@ -63,9 +68,25 @@
 	position: relative;
 	top: 0px;
 	padding: 20px;
-	font-size: 20px;
+	font-size: 25px;
 	background-color: #fff;
+	/* margin-top: 275px; */
 }
 
+.img-circle {
+    border-radius: 50%;
+		height: 200px;
+}
 
+.post {
+	top: 40px;
+	z-index: -1;
+}
+
+p {
+  margin-bottom: 1.3em;
+  line-height: 1.7em; 
+	font-size: 0.7em;
+  font-family: 'Roboto Slab', serif;
+}
 
