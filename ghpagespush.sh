@@ -1,4 +1,5 @@
 #!/bin/bash
+hugo
 cd public
 git status
 git add -A -v

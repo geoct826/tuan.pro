@@ -25,7 +25,7 @@ func main() {
 func HugoBuildCommand(w http.ResponseWriter, r *http.Request) {
   fmt.Fprintf(w, "Running Hugo\n")
 	
-	out, err := exec.Command("hugo").Output()
+	out, err := exec.Command("hugo", "--config", "local-config.yaml").Output()
 	
 	if err != nil {
 		log.Fatal(err)

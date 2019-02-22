@@ -1,0 +1,50 @@
+{{ define "title" }}
+  <!-- This will override the default value set in baseof.html; i.e., "{{.Site.Title}}" in the original example-->
+  {{ .Title }} &ndash; {{ .Site.Title }}
+{{ end }}
+
+{{ define "main" }}
+  
+  <div class="grid-container">
+    <div class="grid-x">
+      
+
+   
+  {{ if (isset .Params "image") }}
+  	<div class="cell" align="center"> 
+		  <img class="banner" src={{ .Params.image }}>
+	  </div>
+  {{ end }}
+  
+  <div class="cell">
+    <h3>{{ .Title }}</h3>  
+</div>
+ 
+<div class="cell">
+    {{ .Content }}  
+</div>
+      
+<div class="cell small-6">
+  <p>
+  {{ with .PrevInSection }}
+    previous post: </br>
+      <a class="previous" href="{{.Permalink}}"> {{.Title}}</a>
+  {{ end }}
+  </p>
+
+</div>
+
+<div class="cell small-6">
+  <p align="right">
+   {{ with .NextInSection }}
+    next post: </br>
+      <a class="next" href="{{.Permalink}}"> {{.Title}}</a>
+   {{ end }}
+  </p>
+
+</div>
+    
+    </div>
+    </div>
+
+{{ end }}
